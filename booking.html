@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Reserve your luxury stay at Hotel Iaki with a refined booking experience and concierge support." />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#060910" />
+    <meta property="og:title" content="Book Your Stay | Hotel Iaki" />
+    <meta property="og:description" content="Reserve your private coastal escape at Hotel Iaki with tailored service and seamless planning." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="hero.jpg" />
+    <link rel="canonical" href="https://hoteliaki.com/booking.html" />
+    <title>Book Your Stay | Hotel Iaki</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="legal-page">
+    <a class="skip-link" href="#booking-content" data-i18n="booking.skip">Sari la formularul de rezervare</a>
+    <div class="loading-screen" aria-hidden="true">
+      <div class="loading-card">
+        <span class="loading-pill">Hotel Iaki</span>
+        <div class="loading-ring"></div>
+        <p data-i18n="booking.loading">Pregătim experiența ta de rezervare</p>
+      </div>
+    </div>
+
+    <div class="legal-progress" aria-hidden="true"></div>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="ambient ambient-three"></div>
+
+    <header class="topbar">
+      <div class="brand-group">
+        <a class="brand" href="index.html">
+          <span class="brand-mark"></span>
+          <span class="brand-name">Hotel Iaki</span>
+        </a>
+        <div class="lang-switcher">
+          <button class="lang-button" type="button" aria-label="Schimbă limba" data-i18n-aria-label="nav.language"><span>RO</span></button>
+          <div class="lang-menu" id="langMenu">
+            <button type="button" data-lang="en">English</button>
+            <button type="button" data-lang="ro">Română</button>
+          </div>
+        </div>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-label="Deschide navigarea" aria-controls="siteNav" aria-expanded="false" data-i18n-aria-label="nav.toggle">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="topnav" id="siteNav" aria-label="Navigare principală">
+        <a href="index.html" data-i18n="booking.nav.home">Acasă</a>
+        <a href="index.html#about" data-i18n="booking.nav.about">Despre</a>
+        <a href="index.html#rooms" data-i18n="booking.nav.rooms">Camere</a>
+        <a href="index.html#gallery" data-i18n="booking.nav.gallery">Galerie</a>
+        <a class="active" href="booking.html" data-i18n="booking.nav.booking">Rezervări</a>
+        <a class="btn btn-primary btn-inline" href="booking.html" data-i18n="booking.nav.reserve">Rezervă acum</a>
+      </nav>
+    </header>
+
+    <main class="legal-hero" id="booking-content">
+      <div class="legal-shell">
+        <section class="legal-hero-card reveal">
+          <div class="legal-hero-grid">
+            <div class="legal-hero-copy">
+              <span class="legal-badge" data-i18n="booking.hero.badge">Experiență de rezervare</span>
+              <h1 data-i18n="booking.hero.title">Rezervați-vă escape-ul privat la malul mării.</h1>
+              <p data-i18n="booking.hero.text">De la transferuri private la ritualuri spa și dining elegant, echipa noastră de concierge va planifica fiecare detaliu în jurul sejurului dumneavoastră cu discreție.</p>
+              <div class="legal-actions">
+                <a class="btn btn-primary magnetic" href="#booking-form" data-i18n="booking.hero.cta.primary">Începe rezervarea</a>
+                <a class="btn btn-secondary magnetic" href="index.html" data-i18n="booking.hero.cta.secondary">Întoarce-te acasă</a>
+              </div>
+            </div>
+            <div class="legal-hero-meta">
+              <div class="legal-meta-card">
+                <strong data-i18n="booking.meta.support">Asistență concierge</strong>
+                <span data-i18n="booking.meta.support.text">Asistență 24/7 pentru transferuri, dining și cereri speciale</span>
+              </div>
+              <div class="legal-meta-card">
+                <strong data-i18n="booking.meta.arrival">Sosire flexibilă</strong>
+                <span data-i18n="booking.meta.arrival.text">Check-in timpuriu disponibil la cerere</span>
+              </div>
+              <div class="legal-meta-card">
+                <strong data-i18n="booking.meta.guests">Oaspeți preferați</strong>
+                <span data-i18n="booking.meta.guests.text">Planificare privată pentru aniversări, nunți și retreat-uri</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="booking-shell">
+          <section class="booking-card reveal">
+            <span class="eyebrow" data-i18n="booking.section.badge">Sejur signature</span>
+            <h2 data-i18n="booking.section.title">Totul, de la sosire până la plecare, este organizat cu precizie liniștită.</h2>
+            <p data-i18n="booking.section.text">Alegeți camera dorită, intervalul de sosire și serviciile cerute și echipa noastră se va ocupa de restul.</p>
+            <div class="booking-stats">
+              <div><strong data-i18n="booking.stats.one.title">Suite ocean</strong><p data-i18n="booking.stats.one.text">12 suite frumos amenajate, cu vedere la mare și terase private.</p></div>
+              <div><strong data-i18n="booking.stats.two.title">Ritualuri de wellness</strong><p data-i18n="booking.stats.two.text">Tratamente spa personalizate, yoga la răsărit și spații private de recuperare.</p></div>
+              <div><strong data-i18n="booking.stats.three.title">Concierge dining</strong><p data-i18n="booking.stats.three.text">Mic dejun în cameră, cine la chef și meniuri intime pentru sărbători.</p></div>
+            </div>
+          </section>
+
+          <section class="booking-card reveal" id="booking-form">
+            <form class="booking-form" id="bookingForm">
+              <div class="booking-grid">
+                <label>
+                  <span data-i18n="booking.form.fullname">Nume complet</span>
+                  <input type="text" name="name" placeholder="Alexandra Popescu" data-i18n-placeholder="booking.form.placeholder.name" required />
+                </label>
+                <label>
+                  <span data-i18n="booking.form.email">Email</span>
+                  <input type="email" name="email" placeholder="alexandra@email.com" data-i18n-placeholder="booking.form.placeholder.email" required />
+                </label>
+              </div>
+              <div class="booking-grid">
+                <label>
+                  <span data-i18n="booking.form.arrival">Data sosirii</span>
+                  <input type="date" name="arrival" required />
+                </label>
+                <label>
+                  <span data-i18n="booking.form.departure">Data plecării</span>
+                  <input type="date" name="departure" required />
+                </label>
+              </div>
+              <div class="booking-grid">
+                <label>
+                  <span data-i18n="booking.form.guests">Oaspeți</span>
+                  <select name="guests">
+                    <option data-i18n="booking.form.guest.option.one">2 Oaspeți</option>
+                    <option data-i18n="booking.form.guest.option.two">3 Oaspeți</option>
+                    <option data-i18n="booking.form.guest.option.three">4 Oaspeți</option>
+                    <option data-i18n="booking.form.guest.option.four">5+ Oaspeți</option>
+                  </select>
+                </label>
+                <label>
+                  <span data-i18n="booking.form.room">Tip cameră</span>
+                  <select name="room">
+                    <option data-i18n="booking.form.room.option.one">Ocean View Room</option>
+                    <option data-i18n="booking.form.room.option.two">Deluxe Suite</option>
+                    <option data-i18n="booking.form.room.option.three">Presidential Suite</option>
+                  </select>
+                </label>
+              </div>
+              <label>
+                <span data-i18n="booking.form.request">Cereri speciale</span>
+                <textarea name="request" rows="4" placeholder="Spuneți-ne despre experiența dorită, sărbătoririle sau nevoile de accesibilitate." data-i18n-placeholder="booking.form.placeholder.request"></textarea>
+              </label>
+              <button class="btn btn-primary magnetic" type="submit" data-i18n="booking.form.submit">Solicită disponibilitate</button>
+              <p class="form-status" role="status" aria-live="polite"></p>
+              <div class="booking-highlight" data-i18n="booking.highlight">Un specialist în rezervări vă va răspunde în scurt timp cu disponibilitatea camerei, opțiuni de pachet și următorii pași.</div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-brand">
+        <h3>Hotel Iaki</h3>
+        <p data-i18n="footer.text">© 2026 Hotel Iaki • Eleganță, confort și ospitalitate la mare</p>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html" data-i18n="footer.privacy">Politică de confidențialitate</a>
+        <a href="gdpr.html" data-i18n="footer.gdpr">GDPR</a>
+        <a href="cookies.html" data-i18n="footer.cookies">Politică cookie</a>
+        <a href="terms.html" data-i18n="footer.terms">Termeni și condiții</a>
+        <a href="index.html#contact" data-i18n="footer.contact">Contact</a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
